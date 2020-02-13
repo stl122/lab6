@@ -30,7 +30,7 @@ function addProjectDetails(e) {
 
 	//console.log("http://localhost:3000/project/"+idNumber);
 	
-	$.get("http://localhost:3000/project/"+idNumber, callBackFn);
+	$.get("/project/"+idNumber, callBackFn);
 }
 
 function addProject(result) {
